@@ -1,0 +1,86 @@
+body{
+    margin: 0;  /*Xóa khoảng cách mặc định bên ngoài của trang*/
+    padding: 0;  /*Xóa khoảng cách mặc định bên trong*/
+    box-sizing: border-box;  /*...*/
+    background-color: rgb(217, 217, 225);  /*màu background*/
+    font-family: Arial, sans-serif;  /*font chữ*/
+    background-size: 100%;  /**/
+    text-align:center;  /*căn giữa*/
+}
+.card{
+    width:350px;    /*rộng*/
+    background-color: white;
+    border-style: solid;   /*Kiểu viền*/
+    border-color:darkgrey;       /*Màu viền*/
+    border-radius: 50px;     /*bo góc lớn*/
+    padding:50px;    /*khoảng đệm*/
+    text-align:center;
+}
+.card img{
+    width: 150px;   /*rộng*/
+    height: 150px;    /*cao*/
+    border-radius: 50%;    /*bo tròn*/
+    border-color: rgb(125, 125, 255);    /*viền bo*/
+    margin-bottom: 20px;    /*cách khoảng trắng*/
+}
+
+.card p{
+    text-align: center;/*căn giữa*/
+    color: blue;/*màu chữ*/
+    text-transform: uppercase;  /*chữ in hoa*/
+    font-size: 2rem;    /*Cỡ chữ*/
+
+}
+
+.nghề{
+    color:dimgray;    /*màu chữ*/
+    font-style: italic; /*chữ nghiêng*/
+    font-size: 1.1rem;    /**/
+    text-align:center;
+}
+
+.TT{
+    padding:100px;    /*khoảng cánh nội dung và viền*/
+    border-bottom:2px;    /*độ dày đường viền dưới*/
+    
+}
+
+.skill{
+    border-color:blue;    /*màu viền*/
+    color:blue;    /*màu chữ*/
+    border-radius: 50px;    /*bo góc*/
+
+    margin-top: 150px;
+    margin-right: 200px;
+    margin-bottom: 100px;
+    margin-left: 50px;
+
+    display: inline-block;    /*hiện trên cùng một hàng nhưng chỉnh được width, height*/
+}
+
+.tag{
+    display:inline-block;
+    padding:8px;
+    color:white;
+    border-radius:20px;
+    margin:5px;    /*khoảng cách giữa các tag*/
+}
+
+.chucnang{
+    width: 10px;
+    height: 20px;
+    border-radius: 20px;
+    cursor:pointer;    /*Đổi con trỏ chuột thành hình bàn tay*/
+    display: inline-block;    /*hiển thị cùng hàng và có thể chỉnh kích thước*/
+}
+
+.follow{
+    background-color: aqua;
+    color:white;
+}
+
+.message{
+    background-color: white;
+    border-color: rgb(118, 118, 255);   /*màu đường viền*/
+    color: cornflowerblue;
+}
